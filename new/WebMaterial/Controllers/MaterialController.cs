@@ -92,13 +92,13 @@ namespace WebMaterial.Controllers
         // POST: api/Material
         [HttpPost]
         [Authorize(Roles = "initiator, admin")]
-        public IActionResult AddMaterial([FromForm] NewMaterialDto material, [FromForm] IFormFile file)
+        public IActionResult AddMaterial([FromForm] NewMaterialDto material)
         {
-            if (material.Name != null && material.Category != null && file != null
-                && file.Length < 2147483648 && Categories.Contains(material.Category))
+            if (material.Name != null && material.Category != null && material.File != null
+                && material.File.Length < 2147483648 && Categories.Contains(material.Category))
             {
                 Material newMaterial = new Material { Name = material.Name, Category = material.Category };
-                var result = _materialService.AddMaterial(newMaterial, file);
+                var result = _materialService.AddMaterial(newMaterial, material.File);
                 if (result != null)
                     return Ok();
             }
@@ -109,11 +109,11 @@ namespace WebMaterial.Controllers
         [HttpPost]
         [Route("add")]
         [Authorize(Roles = "initiator, admin")]
-        public IActionResult AddVersion([FromForm] UpdateMaterialDto material, [FromForm] IFormFile file)
+        public IActionResult AddVersion([FromForm] UpdateMaterialDto material)
         {
-            if (material.Name != null && file != null)
+            if (material.Name != null && material.File != null)
             {
-                var result = _materialService.AddVersion(material.Name, file);
+                var result = _materialService.AddVersion(material.Name, material.File);
                 if (result != null)
                     return Ok();
             }

@@ -46,3 +46,15 @@ C:\Users\roman\source\repos\proj-main\Newtask\WebMaterial.DAL\obj\Debug\netcorea
 C:\Users\roman\source\repos\proj-main\Newtask\WebMaterial.DAL\obj\Debug\netcoreapp3.1\WebMaterial.DAL.dll
 C:\Users\roman\source\repos\proj-main\Newtask\WebMaterial.DAL\obj\Debug\netcoreapp3.1\WebMaterial.DAL.pdb
 C:\Users\roman\source\repos\proj-main\Newtask\WebMaterial.DAL\obj\Debug\netcoreapp3.1\WebMaterial.DAL.genruntimeconfig.cache
+C:\Users\roman\source\repos\WebMaterialApp\new\WebMaterial.DAL\bin\Debug\netcoreapp3.1\WebMaterial.DAL.deps.json
+C:\Users\roman\source\repos\WebMaterialApp\new\WebMaterial.DAL\bin\Debug\netcoreapp3.1\WebMaterial.DAL.runtimeconfig.json
+C:\Users\roman\source\repos\WebMaterialApp\new\WebMaterial.DAL\bin\Debug\netcoreapp3.1\WebMaterial.DAL.runtimeconfig.dev.json
+C:\Users\roman\source\repos\WebMaterialApp\new\WebMaterial.DAL\bin\Debug\netcoreapp3.1\WebMaterial.DAL.dll
+C:\Users\roman\source\repos\WebMaterialApp\new\WebMaterial.DAL\bin\Debug\netcoreapp3.1\WebMaterial.DAL.pdb
+C:\Users\roman\source\repos\WebMaterialApp\new\WebMaterial.DAL\obj\Debug\netcoreapp3.1\WebMaterial.DAL.csprojAssemblyReference.cache
+C:\Users\roman\source\repos\WebMaterialApp\new\WebMaterial.DAL\obj\Debug\netcoreapp3.1\WebMaterial.DAL.AssemblyInfoInputs.cache
+C:\Users\roman\source\repos\WebMaterialApp\new\WebMaterial.DAL\obj\Debug\netcoreapp3.1\WebMaterial.DAL.AssemblyInfo.cs
+C:\Users\roman\source\repos\WebMaterialApp\new\WebMaterial.DAL\obj\Debug\netcoreapp3.1\WebMaterial.DAL.dll
+C:\Users\roman\source\repos\WebMaterialApp\new\WebMaterial.DAL\obj\Debug\netcoreapp3.1\WebMaterial.DAL.pdb
+C:\Users\roman\source\repos\WebMaterialApp\new\WebMaterial.DAL\obj\Debug\netcoreapp3.1\WebMaterial.DAL.genruntimeconfig.cache
+C:\Users\roman\source\repos\WebMaterialApp\new\WebMaterial.DAL\obj\Debug\netcoreapp3.1\WebMaterial.DAL.csproj.CoreCompileInputs.cache

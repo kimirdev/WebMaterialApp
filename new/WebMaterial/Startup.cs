@@ -63,6 +63,7 @@ namespace WebMaterial
 
             services.AddTransient<IMaterialService, MaterialService>();
             //services.AddTransient<IMailService, MailService>();
+            services.AddSwaggerDocument();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -86,6 +87,9 @@ namespace WebMaterial
             app.UseAuthentication();
 
             app.UseAuthorization();
+
+            app.UseOpenApi();
+            app.UseSwaggerUi3();
 
             app.UseEndpoints(endpoints =>
             {

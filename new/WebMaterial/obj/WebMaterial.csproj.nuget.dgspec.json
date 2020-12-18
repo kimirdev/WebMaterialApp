@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial\\WebMaterial.csproj": {}
+    "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial\\WebMaterial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial.BLL\\WebMaterial.BLL.csproj": {
+    "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial.BLL\\WebMaterial.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial.BLL\\WebMaterial.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial.BLL\\WebMaterial.BLL.csproj",
         "projectName": "WebMaterial.BLL",
-        "projectPath": "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial.BLL\\WebMaterial.BLL.csproj",
+        "projectPath": "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial.BLL\\WebMaterial.BLL.csproj",
         "packagesPath": "C:\\Users\\roman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial.BLL\\obj\\",
+        "outputPath": "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial.DAL\\WebMaterial.DAL.csproj": {
-                "projectPath": "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial.DAL\\WebMaterial.DAL.csproj"
+              "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial.DAL\\WebMaterial.DAL.csproj": {
+                "projectPath": "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial.DAL\\WebMaterial.DAL.csproj"
               }
             }
           }
@@ -81,6 +81,10 @@
               "target": "Package",
               "version": "[5.0.0, )"
             },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.9.4, )"
+            },
             "Telegram.Bot": {
               "target": "Package",
               "version": "[15.7.1, )"
@@ -108,14 +112,14 @@
         }
       }
     },
-    "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial.DAL\\WebMaterial.DAL.csproj": {
+    "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial.DAL\\WebMaterial.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial.DAL\\WebMaterial.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial.DAL\\WebMaterial.DAL.csproj",
         "projectName": "WebMaterial.DAL",
-        "projectPath": "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial.DAL\\WebMaterial.DAL.csproj",
+        "projectPath": "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial.DAL\\WebMaterial.DAL.csproj",
         "packagesPath": "C:\\Users\\roman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial.DAL\\obj\\",
+        "outputPath": "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -176,6 +180,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.9.4, )"
             }
           },
           "imports": [
@@ -200,14 +208,14 @@
         }
       }
     },
-    "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial\\WebMaterial.csproj": {
+    "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial\\WebMaterial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial\\WebMaterial.csproj",
+        "projectUniqueName": "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial\\WebMaterial.csproj",
         "projectName": "WebMaterial",
-        "projectPath": "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial\\WebMaterial.csproj",
+        "projectPath": "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial\\WebMaterial.csproj",
         "packagesPath": "C:\\Users\\roman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial\\obj\\",
+        "outputPath": "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -226,11 +234,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial.BLL\\WebMaterial.BLL.csproj": {
-                "projectPath": "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial.BLL\\WebMaterial.BLL.csproj"
+              "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial.BLL\\WebMaterial.BLL.csproj": {
+                "projectPath": "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial.BLL\\WebMaterial.BLL.csproj"
               },
-              "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial.DAL\\WebMaterial.DAL.csproj": {
-                "projectPath": "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial.DAL\\WebMaterial.DAL.csproj"
+              "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial.DAL\\WebMaterial.DAL.csproj": {
+                "projectPath": "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial.DAL\\WebMaterial.DAL.csproj"
               }
             }
           }
@@ -287,6 +295,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.4, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.9.4, )"
             },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",

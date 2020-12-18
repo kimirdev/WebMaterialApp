@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial.DAL\\WebMaterial.DAL.csproj": {}
+    "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial.DAL\\WebMaterial.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial.DAL\\WebMaterial.DAL.csproj": {
+    "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial.DAL\\WebMaterial.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial.DAL\\WebMaterial.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial.DAL\\WebMaterial.DAL.csproj",
         "projectName": "WebMaterial.DAL",
-        "projectPath": "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial.DAL\\WebMaterial.DAL.csproj",
+        "projectPath": "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial.DAL\\WebMaterial.DAL.csproj",
         "packagesPath": "C:\\Users\\roman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roman\\source\\repos\\proj-main\\Newtask\\WebMaterial.DAL\\obj\\",
+        "outputPath": "C:\\Users\\roman\\source\\repos\\WebMaterialApp\\new\\WebMaterial.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -72,6 +72,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.9.4, )"
             }
           },
           "imports": [

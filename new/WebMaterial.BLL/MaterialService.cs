@@ -53,20 +53,21 @@ namespace WebMaterial.BLL
 
         public Version AddMaterial(Material material, IFormFile file)
         {
+            string ext = file.FileName.Split(".").Last();
             Version newVersion;
             if (_context.Materials.FirstOrDefault(p => p.Name == material.Name) == null)
             {
                 newVersion = new Version
                 {
                     Material = material,
-                    Path = _config.GetValue<string>("PathFiles") + material.Name + "_1",
+                    Path = _config.GetValue<string>("PathFiles") + material.Name + "_1" + $".{ext}",
                     Release = 1,
                     Size = file.Length,
                     UploadDateTime = DateTime.Now
                 };
                 using (var filestream = new FileStream(newVersion.Path, FileMode.Create))
                 {
-                    file.CopyToAsync(filestream);
+                    file.CopyTo(filestream);
                 }
                 _context.Materials.Add(material);
                 _context.Versions.Add(newVersion);
@@ -79,6 +80,7 @@ namespace WebMaterial.BLL
 
         public Version AddVersion(string name, IFormFile file)
         {
+            string ext = file.FileName.Split(".").Last();
             Material material = _context.Materials.Include(p => p.Versions).FirstOrDefault(p => p.Name == name);
             Version newVersion;
             if (material != null)
@@ -86,14 +88,14 @@ namespace WebMaterial.BLL
                 newVersion = new Version
                 {
                     Material = material,
-                    Path = _config.GetValue<string>("PathFiles") + material.Name + "_" + (material.Versions.Count() + 1),
+                    Path = _config.GetValue<string>("PathFiles") + material.Name + "_" + (material.Versions.Count() + 1) + $".{ext}",
                     Release = material.Versions.Count() + 1,
                     Size = file.Length,
                     UploadDateTime = DateTime.Now
                 };
                 using (var filestream = new FileStream(newVersion.Path, FileMode.Create))
                 {
-                    file.CopyToAsync(filestream);
+                    file.CopyTo(filestream);
                 }
                 _context.Versions.Add(newVersion);
                 _context.SaveChanges();
